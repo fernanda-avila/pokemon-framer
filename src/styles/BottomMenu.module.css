@@ -1,0 +1,77 @@
+.menuContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 190px;
+  background: linear-gradient(90deg, #ff0000, #ffcc00);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 4px solid #000;
+  box-shadow: 0 -4px 8px rgba(0,0,0,0.3);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Container para os botões, para alinhá-los lado a lado */
+.buttonsContainer {
+  display: flex;
+  gap: 20px; /* espaço entre os botões */
+
+}
+
+.ashContainer {
+  display: flex;
+  margin-left: 100px;
+  align-items: flex-start; /* Ash fica mais para cima */
+}
+
+.ashImage {
+  border-radius: 80%;
+  border: 2px solid #fff;
+  width: 100px; /* aumenta o tamanho */
+  transform: translateY(-35px); /* sobe a imagem do Ash */
+}
+
+.evolveButton, .deckButton {
+  background: #ffcb05;
+  color: #3b4cca;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 3px solid #3b4cca;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.deckButton {
+  /* Pode ter uma cor diferente, se quiser */
+  background: #3b4cca;
+  color: #ffcb05;
+  border-color: #ffcb05;
+}
+
+.pokeballsContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.pokeball {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.ashMessage {
+  background: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  font-size: 0.8rem;
+  max-width: 200px;
+  margin-left: 10px;
+  box-shadow: 2px 2px 0 #000;
+}
