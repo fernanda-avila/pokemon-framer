@@ -6,26 +6,26 @@ import styles from "../styles/PokemonCard.module.css";
 import { kantoBasePokemons } from "../data/kantoBasePokemons";
 
 
-// Função utilitária para sortear 3 pokémons base únicos
+ 
 function getRandomPokemons() {
   const shuffled = [...kantoBasePokemons].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, 3);
 }
 export default function Home() {
-  // Estado inicial: vazio para evitar diferença SSR/Client
+  
   const [pokemons, setPokemons] = useState([]);
   const [flipped, setFlipped] = useState([false, false, false]);
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [ashMessage, setAshMessage] = useState("Ash: Vamos começar!");
 
-  // Sorteia pokémons só no lado do cliente
+  
   useEffect(() => {
     if (pokemons.length === 0) {
       setPokemons(getRandomPokemons());
     }
   }, []);
 
-  // Evoluir o pokémon selecionado
+  
   const handleEvolveClick = () => {
     if (selectedIndex === null) {
       setAshMessage("Ash: Selecione um Pokémon para evoluir!");
@@ -43,7 +43,7 @@ export default function Home() {
     setAshMessage(`Ash: Uau! ${current.name} evoluiu para ${evolved.name}!`);
   };
 
-  // Selecionar Pokémon
+  
   const handlePokeballClick = (num) => {
     const newFlipped = [false, false, false];
     newFlipped[num - 1] = true;
@@ -52,14 +52,14 @@ export default function Home() {
     setAshMessage(`Ash: ${pokemons[num - 1].name}, eu escolho você!`);
   };
 
-  // Mostrar deck completo
+  
   const handleDeckClick = () => {
     setFlipped([true, true, true]);
     setSelectedIndex(null);
     setAshMessage("Ash: Aqui está o seu PokéDeck completo!");
   };
 
-  // Próximo deck: sorteia 3 novos pokémons base
+
   const handleNextDeck = () => {
     setPokemons(getRandomPokemons());
     setFlipped([false, false, false]);

@@ -61,7 +61,7 @@
   overflow: hidden;
 }
 
-/* Verso da carta */
+
 .cardBack {
   background: linear-gradient(135deg, #e0e0e0, #b0b0b0);
   display: flex;
@@ -111,7 +111,7 @@
     repeating-linear-gradient(45deg, rgba(255,255,255,0.1) 0px, rgba(255,255,255,0.1) 2px, transparent 2px, transparent 4px);
 }
 
-/* Frente da carta */
+
 .cardFront {
   transform: rotateY(180deg);
   padding: 24px;

@@ -4,10 +4,10 @@ import styles from '../styles/PokemonCard.module.css';
 
 
 const PokemonCard = ({ name, img, type, hp, attacks, flipped, evolved }) => {
-  // O flip agora é controlado externamente
+
   const [isAnimating, setIsAnimating] = useState(false);
 
-  // Animação de entrada e evolução
+
   const cardVariants = {
     initial: { opacity: 0, y: 40, scale: 0.95 },
     animate: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.5, ease: 'easeOut' } },
@@ -15,17 +15,17 @@ const PokemonCard = ({ name, img, type, hp, attacks, flipped, evolved }) => {
     evolved: evolved
       ? {
           scale: [1, 1.06, 0.98, 1],
-          rotateY: [0, 720], // 2 voltas
+          rotateY: [0, 720],
           transition: {
             duration: 0.8,
             times: [0, 0.3, 0.7, 1],
-            ease: [0.42, 0, 0.58, 1] // easeInOutSine para suavidade
+            ease: [0.42, 0, 0.58, 1]
           }
         }
       : {}
   };
 
-  // Hover animado
+  
   const hover = { scale: 1.04, boxShadow: "0 8px 32px 0 rgba(0,0,0,0.18)" };
 
   const typeStyles = {
@@ -79,7 +79,7 @@ const PokemonCard = ({ name, img, type, hp, attacks, flipped, evolved }) => {
         transition={{ duration: 0.6, ease: "easeInOut" }}
         onAnimationComplete={() => setIsAnimating(false)}
       >
-        {/* Lado de trás da carta */}
+        
         <div className={styles.cardBack}>
           <div className={styles.pokeball}>
             <div className={styles.pokeballCenter} />
@@ -87,7 +87,7 @@ const PokemonCard = ({ name, img, type, hp, attacks, flipped, evolved }) => {
           <div className={styles.cardBackPattern} />
         </div>
 
-        {/* Lado da frente da carta */}
+
         <div
           className={styles.cardFront}
           style={{ background: style.bg }}

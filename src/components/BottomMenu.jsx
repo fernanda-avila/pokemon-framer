@@ -10,7 +10,7 @@ export default function BottomMenu({ ashMessage, onEvolveClick, onDeckClick, onN
 
   return (
     <div className={styles.menuContainer}>
-      {/* Foto do Ash */}
+      
       <div className={styles.ashContainer}>
         <Image
           src="/ash.png"
@@ -20,7 +20,7 @@ export default function BottomMenu({ ashMessage, onEvolveClick, onDeckClick, onN
           className={styles.ashImage}
         />
 
-        {/* Balão de fala */}
+        
         <AnimatePresence>
           {ashMessage && (
             <motion.div
@@ -37,7 +37,7 @@ export default function BottomMenu({ ashMessage, onEvolveClick, onDeckClick, onN
         </AnimatePresence>
       </div>
 
-      {/* Container dos botões */}
+      
       <div className={styles.buttonsContainer}>
         <motion.button
           whileHover={{ scale: 1.1 }}
@@ -66,7 +66,7 @@ export default function BottomMenu({ ashMessage, onEvolveClick, onDeckClick, onN
         </motion.button>
       </div>
 
-      {/* Pokébolas */}
+
       <div className={styles.pokeballsContainer}>
         {[1, 2, 3].map((num) => (
           <motion.img

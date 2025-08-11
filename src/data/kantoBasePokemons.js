@@ -1,4 +1,4 @@
-// Lista dos pokémons base da 1ª geração (Kanto) com suas evoluções
+
 export const kantoBasePokemons = [
   {
     name: "Bulbasaur",

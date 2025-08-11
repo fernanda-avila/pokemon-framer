@@ -14,10 +14,10 @@
   padding-right: 20px;
 }
 
-/* Container para os botões, para alinhá-los lado a lado */
+
 .buttonsContainer {
   display: flex;
-  gap: 20px; /* espaço entre os botões */
+  gap: 20px;
 
 }
 
@@ -54,7 +54,7 @@
 }
 
 .deckButton {
-  /* Pode ter uma cor diferente, se quiser */
+
   background: #3b4cca;
   color: #ffcb05;
   border-color: #ffcb05;
