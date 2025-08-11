@@ -2,7 +2,7 @@
 export const kantoBasePokemons = [
   {
     name: "Bulbasaur",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
     type: "grass",
     hp: 100,
     attacks: [
@@ -11,7 +11,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Ivysaur",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
       type: "grass",
       hp: 140,
       attacks: [
@@ -20,7 +20,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Venusaur",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
         type: "grass",
         hp: 200,
         attacks: [
@@ -33,7 +33,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Charmander",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
     type: "fire",
     hp: 100,
     attacks: [
@@ -42,7 +42,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Charmeleon",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
       type: "fire",
       hp: 150,
       attacks: [
@@ -51,7 +51,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Charizard",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
         type: "fire",
         hp: 200,
         attacks: [
@@ -64,7 +64,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Squirtle",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
     type: "water",
     hp: 100,
     attacks: [
@@ -73,7 +73,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Wartortle",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
       type: "water",
       hp: 150,
       attacks: [
@@ -82,7 +82,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Blastoise",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
         type: "water",
         hp: 210,
         attacks: [
@@ -95,7 +95,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Caterpie",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
     type: "bug",
     hp: 80,
     attacks: [
@@ -104,7 +104,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Metapod",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
       type: "bug",
       hp: 100,
       attacks: [
@@ -113,7 +113,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Butterfree",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
         type: "bug",
         hp: 140,
         attacks: [
@@ -126,7 +126,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Weedle",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
     type: "bug",
     hp: 80,
     attacks: [
@@ -135,7 +135,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Kakuna",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
       type: "bug",
       hp: 100,
       attacks: [
@@ -144,7 +144,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Beedrill",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
         type: "bug",
         hp: 150,
         attacks: [
@@ -157,7 +157,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Pidgey",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
     type: "flying",
     hp: 90,
     attacks: [
@@ -166,7 +166,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Pidgeotto",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
       type: "flying",
       hp: 130,
       attacks: [
@@ -175,7 +175,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Pidgeot",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
         type: "flying",
         hp: 180,
         attacks: [
@@ -188,7 +188,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Rattata",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
     type: "normal",
     hp: 80,
     attacks: [
@@ -197,7 +197,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Raticate",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
       type: "normal",
       hp: 120,
       attacks: [
@@ -209,7 +209,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Spearow",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
     type: "flying",
     hp: 90,
     attacks: [
@@ -218,7 +218,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Fearow",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
       type: "flying",
       hp: 140,
       attacks: [
@@ -230,7 +230,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Ekans",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
     type: "poison",
     hp: 90,
     attacks: [
@@ -239,7 +239,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Arbok",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
       type: "poison",
       hp: 140,
       attacks: [
@@ -251,7 +251,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Pikachu",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
     type: "electric",
     hp: 100,
     attacks: [
@@ -260,7 +260,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Raichu",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
       type: "electric",
       hp: 150,
       attacks: [
@@ -272,7 +272,7 @@ export const kantoBasePokemons = [
   },
     {
     name: "Sandshrew",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
     type: "ground",
     hp: 100,
     attacks: [
@@ -281,7 +281,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Sandslash",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
       type: "ground",
       hp: 150,
       attacks: [
@@ -293,7 +293,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Nidoran♀",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
     type: "poison",
     hp: 100,
     attacks: [
@@ -302,7 +302,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Nidorina",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
       type: "poison",
       hp: 140,
       attacks: [
@@ -311,7 +311,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Nidoqueen",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
         type: "poison",
         hp: 190,
         attacks: [
@@ -324,7 +324,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Nidoran♂",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
     type: "poison",
     hp: 100,
     attacks: [
@@ -333,7 +333,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Nidorino",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
       type: "poison",
       hp: 140,
       attacks: [
@@ -342,7 +342,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Nidoking",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
         type: "poison",
         hp: 190,
         attacks: [
@@ -355,7 +355,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Clefairy",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
     type: "fairy",
     hp: 100,
     attacks: [
@@ -364,7 +364,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Clefable",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
       type: "fairy",
       hp: 160,
       attacks: [
@@ -376,7 +376,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Vulpix",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
     type: "fire",
     hp: 90,
     attacks: [
@@ -385,7 +385,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Ninetales",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
       type: "fire",
       hp: 160,
       attacks: [
@@ -397,7 +397,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Jigglypuff",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
     type: "fairy",
     hp: 120,
     attacks: [
@@ -406,7 +406,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Wigglytuff",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
       type: "fairy",
       hp: 180,
       attacks: [
@@ -418,7 +418,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Zubat",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
     type: "poison",
     hp: 80,
     attacks: [
@@ -427,7 +427,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Golbat",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
       type: "poison",
       hp: 130,
       attacks: [
@@ -439,7 +439,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Oddish",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
     type: "grass",
     hp: 90,
     attacks: [
@@ -448,7 +448,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Gloom",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
       type: "grass",
       hp: 130,
       attacks: [
@@ -457,7 +457,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Vileplume",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
         type: "grass",
         hp: 170,
         attacks: [
@@ -470,7 +470,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Paras",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
     type: "bug",
     hp: 80,
     attacks: [
@@ -479,7 +479,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Parasect",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
       type: "bug",
       hp: 130,
       attacks: [
@@ -491,7 +491,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Venonat",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
     type: "bug",
     hp: 100,
     attacks: [
@@ -500,7 +500,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Venomoth",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
       type: "bug",
       hp: 140,
       attacks: [
@@ -512,7 +512,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Diglett",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
     type: "ground",
     hp: 60,
     attacks: [
@@ -521,7 +521,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Dugtrio",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
       type: "ground",
       hp: 100,
       attacks: [
@@ -533,7 +533,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Meowth",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
     type: "normal",
     hp: 90,
     attacks: [
@@ -542,7 +542,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Persian",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
       type: "normal",
       hp: 140,
       attacks: [
@@ -554,7 +554,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Psyduck",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
     type: "water",
     hp: 100,
     attacks: [
@@ -563,7 +563,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Golduck",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
       type: "water",
       hp: 160,
       attacks: [
@@ -575,7 +575,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Mankey",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
     type: "fighting",
     hp: 90,
     attacks: [
@@ -584,7 +584,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Primeape",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
       type: "fighting",
       hp: 140,
       attacks: [
@@ -596,7 +596,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Growlithe",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
     type: "fire",
     hp: 110,
     attacks: [
@@ -605,7 +605,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Arcanine",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
       type: "fire",
       hp: 180,
       attacks: [
@@ -617,7 +617,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Poliwag",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
     type: "water",
     hp: 80,
     attacks: [
@@ -626,7 +626,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Poliwhirl",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
       type: "water",
       hp: 130,
       attacks: [
@@ -635,7 +635,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Poliwrath",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
         type: "water",
         hp: 180,
         attacks: [
@@ -648,7 +648,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Abra",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
     type: "psychic",
     hp: 60,
     attacks: [
@@ -657,7 +657,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Kadabra",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
       type: "psychic",
       hp: 100,
       attacks: [
@@ -666,7 +666,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Alakazam",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
         type: "psychic",
         hp: 150,
         attacks: [
@@ -679,7 +679,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Machop",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
     type: "fighting",
     hp: 120,
     attacks: [
@@ -688,7 +688,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Machoke",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
       type: "fighting",
       hp: 160,
       attacks: [
@@ -697,7 +697,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Machamp",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
         type: "fighting",
         hp: 200,
         attacks: [
@@ -710,7 +710,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Bellsprout",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
     type: "grass",
     hp: 90,
     attacks: [
@@ -719,7 +719,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Weepinbell",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
       type: "grass",
       hp: 130,
       attacks: [
@@ -728,7 +728,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Victreebel",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
         type: "grass",
         hp: 170,
         attacks: [
@@ -741,7 +741,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Tentacool",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
     type: "water",
     hp: 80,
     attacks: [
@@ -750,7 +750,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Tentacruel",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
       type: "water",
       hp: 140,
       attacks: [
@@ -762,7 +762,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Geodude",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
     type: "rock",
     hp: 100,
     attacks: [
@@ -771,7 +771,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Graveler",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
       type: "rock",
       hp: 140,
       attacks: [
@@ -780,7 +780,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Golem",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
         type: "rock",
         hp: 190,
         attacks: [
@@ -793,7 +793,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Ponyta",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
     type: "fire",
     hp: 100,
     attacks: [
@@ -802,7 +802,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Rapidash",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
       type: "fire",
       hp: 150,
       attacks: [
@@ -814,7 +814,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Slowpoke",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
     type: "water",
     hp: 120,
     attacks: [
@@ -823,7 +823,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Slowbro",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
       type: "water",
       hp: 170,
       attacks: [
@@ -835,7 +835,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Magnemite",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
     type: "electric",
     hp: 80,
     attacks: [
@@ -844,7 +844,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Magneton",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
       type: "electric",
       hp: 130,
       attacks: [
@@ -856,7 +856,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Farfetch'd",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
     type: "flying",
     hp: 100,
     attacks: [
@@ -867,7 +867,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Doduo",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
     type: "flying",
     hp: 90,
     attacks: [
@@ -876,7 +876,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Dodrio",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
       type: "flying",
       hp: 140,
       attacks: [
@@ -888,7 +888,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Seel",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
     type: "water",
     hp: 110,
     attacks: [
@@ -897,7 +897,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Dewgong",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
       type: "water",
       hp: 160,
       attacks: [
@@ -909,7 +909,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Grimer",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
     type: "poison",
     hp: 120,
     attacks: [
@@ -918,7 +918,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Muk",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
       type: "poison",
       hp: 170,
       attacks: [
@@ -930,7 +930,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Shellder",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
     type: "water",
     hp: 60,
     attacks: [
@@ -939,7 +939,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Cloyster",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
       type: "water",
       hp: 100,
       attacks: [
@@ -951,7 +951,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Gastly",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
     type: "ghost",
     hp: 60,
     attacks: [
@@ -960,7 +960,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Haunter",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
       type: "ghost",
       hp: 100,
       attacks: [
@@ -969,7 +969,7 @@ export const kantoBasePokemons = [
       ],
       evolution: {
         name: "Gengar",
-        img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
         type: "ghost",
         hp: 150,
         attacks: [
@@ -982,7 +982,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Onix",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
     type: "rock",
     hp: 110,
     attacks: [
@@ -993,7 +993,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Drowzee",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
     type: "psychic",
     hp: 100,
     attacks: [
@@ -1002,7 +1002,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Hypno",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
       type: "psychic",
       hp: 150,
       attacks: [
@@ -1014,7 +1014,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Krabby",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
     type: "water",
     hp: 70,
     attacks: [
@@ -1023,7 +1023,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Kingler",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
       type: "water",
       hp: 120,
       attacks: [
@@ -1035,7 +1035,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Voltorb",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
     type: "electric",
     hp: 80,
     attacks: [
@@ -1044,7 +1044,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Electrode",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
       type: "electric",
       hp: 120,
       attacks: [
@@ -1056,7 +1056,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Exeggcute",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
     type: "grass",
     hp: 100,
     attacks: [
@@ -1065,7 +1065,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Exeggutor",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
       type: "grass",
       hp: 150,
       attacks: [
@@ -1077,7 +1077,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Cubone",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
     type: "ground",
     hp: 100,
     attacks: [
@@ -1086,7 +1086,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Marowak",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
       type: "ground",
       hp: 140,
       attacks: [
@@ -1098,7 +1098,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Hitmonlee",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
     type: "fighting",
     hp: 120,
     attacks: [
@@ -1109,7 +1109,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Hitmonchan",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
     type: "fighting",
     hp: 120,
     attacks: [
@@ -1120,7 +1120,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Lickitung",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
     type: "normal",
     hp: 140,
     attacks: [
@@ -1131,7 +1131,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Koffing",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
     type: "poison",
     hp: 100,
     attacks: [
@@ -1140,7 +1140,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Weezing",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
       type: "poison",
       hp: 140,
       attacks: [
@@ -1152,7 +1152,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Rhyhorn",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
     type: "ground",
     hp: 130,
     attacks: [
@@ -1161,7 +1161,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Rhydon",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
       type: "ground",
       hp: 170,
       attacks: [
@@ -1173,7 +1173,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Chansey",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
     type: "normal",
     hp: 250,
     attacks: [
@@ -1184,7 +1184,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Tangela",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
     type: "grass",
     hp: 130,
     attacks: [
@@ -1195,7 +1195,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Kangaskhan",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
     type: "normal",
     hp: 180,
     attacks: [
@@ -1206,7 +1206,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Horsea",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
     type: "water",
     hp: 80,
     attacks: [
@@ -1215,7 +1215,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Seadra",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
       type: "water",
       hp: 130,
       attacks: [
@@ -1227,7 +1227,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Goldeen",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
     type: "water",
     hp: 90,
     attacks: [
@@ -1236,7 +1236,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Seaking",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
       type: "water",
       hp: 140,
       attacks: [
@@ -1248,7 +1248,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Staryu",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
     type: "water",
     hp: 80,
     attacks: [
@@ -1257,7 +1257,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Starmie",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
       type: "water",
       hp: 130,
       attacks: [
@@ -1269,7 +1269,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Mr. Mime",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
     type: "psychic",
     hp: 100,
     attacks: [
@@ -1280,7 +1280,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Scyther",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
     type: "bug",
     hp: 140,
     attacks: [
@@ -1291,7 +1291,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Jynx",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
     type: "psychic",
     hp: 130,
     attacks: [
@@ -1302,7 +1302,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Electabuzz",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
     type: "electric",
     hp: 130,
     attacks: [
@@ -1313,7 +1313,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Magmar",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
     type: "fire",
     hp: 130,
     attacks: [
@@ -1324,7 +1324,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Pinsir",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
     type: "bug",
     hp: 140,
     attacks: [
@@ -1335,7 +1335,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Tauros",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
     type: "normal",
     hp: 150,
     attacks: [
@@ -1346,7 +1346,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Magikarp",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
     type: "water",
     hp: 40,
     attacks: [
@@ -1355,7 +1355,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Gyarados",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
       type: "water",
       hp: 190,
       attacks: [
@@ -1367,7 +1367,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Lapras",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
     type: "water",
     hp: 200,
     attacks: [
@@ -1378,7 +1378,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Ditto",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
     type: "normal",
     hp: 100,
     attacks: [
@@ -1388,7 +1388,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Eevee",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
     type: "normal",
     hp: 100,
     attacks: [
@@ -1397,7 +1397,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Vaporeon",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
       type: "water",
       hp: 180,
       attacks: [
@@ -1410,7 +1410,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Porygon",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
     type: "normal",
     hp: 120,
     attacks: [
@@ -1421,7 +1421,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Omanyte",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
     type: "rock",
     hp: 90,
     attacks: [
@@ -1430,7 +1430,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Omastar",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
       type: "rock",
       hp: 140,
       attacks: [
@@ -1442,7 +1442,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Kabuto",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
     type: "rock",
     hp: 90,
     attacks: [
@@ -1451,7 +1451,7 @@ export const kantoBasePokemons = [
     ],
     evolution: {
       name: "Kabutops",
-      img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
       type: "rock",
       hp: 140,
       attacks: [
@@ -1463,7 +1463,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Aerodactyl",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
     type: "flying",
     hp: 150,
     attacks: [
@@ -1474,7 +1474,7 @@ export const kantoBasePokemons = [
   },
   {
     name: "Snorlax",
-    img: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
+  img: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
     type: "normal",
     hp: 220,
     attacks: [
