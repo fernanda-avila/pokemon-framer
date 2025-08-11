@@ -1,11 +1,15 @@
+
+
+
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import styles from "../styles/BottomMenu.module.css";
 
-export default function BottomMenu({ onEvolveClick, onPokeballClick, onDeckClick, ashMessage }) {
+
+export default function BottomMenu({ ashMessage, onEvolveClick, onDeckClick, onNextDeck, onPokeballClick }) {
+
   return (
     <div className={styles.menuContainer}>
-      
       {/* Foto do Ash */}
       <div className={styles.ashContainer}>
         <Image
@@ -51,6 +55,14 @@ export default function BottomMenu({ onEvolveClick, onPokeballClick, onDeckClick
           onClick={onDeckClick}
         >
           PokéDeck
+        </motion.button>
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          className={styles.deckButton}
+          onClick={onNextDeck}
+        >
+          Novo Deck
         </motion.button>
       </div>
 

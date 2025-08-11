@@ -2,9 +2,31 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import styles from '../styles/PokemonCard.module.css';
 
-const PokemonCard = ({ name, img, type, hp, attacks }) => {
-  const [isFlipped, setIsFlipped] = useState(false);
+
+const PokemonCard = ({ name, img, type, hp, attacks, flipped, evolved }) => {
+  // O flip agora é controlado externamente
   const [isAnimating, setIsAnimating] = useState(false);
+
+  // Animação de entrada e evolução
+  const cardVariants = {
+    initial: { opacity: 0, y: 40, scale: 0.95 },
+    animate: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.5, ease: 'easeOut' } },
+    exit: { opacity: 0, y: 40, scale: 0.95, transition: { duration: 0.3 } },
+    evolved: evolved
+      ? {
+          scale: [1, 1.06, 0.98, 1],
+          rotateY: [0, 720], // 2 voltas
+          transition: {
+            duration: 0.8,
+            times: [0, 0.3, 0.7, 1],
+            ease: [0.42, 0, 0.58, 1] // easeInOutSine para suavidade
+          }
+        }
+      : {}
+  };
+
+  // Hover animado
+  const hover = { scale: 1.04, boxShadow: "0 8px 32px 0 rgba(0,0,0,0.18)" };
 
   const typeStyles = {
     fire: {
@@ -35,26 +57,25 @@ const PokemonCard = ({ name, img, type, hp, attacks }) => {
 
   const style = typeStyles[type] || typeStyles.fire;
 
-  const handleFlip = () => {
-    if (!isAnimating) {
-      setIsFlipped(!isFlipped);
-      setIsAnimating(true);
-    }
-  };
+
+
 
   return (
-    <div 
+    <motion.div
       className={styles.cardContainer}
-      onMouseEnter={handleFlip}
-      onMouseLeave={handleFlip}
-      style={{ 
+      style={{
         '--type-primary': style.primary,
-        '--type-secondary': style.secondary 
+        '--type-secondary': style.secondary
       }}
+      initial="initial"
+      animate={evolved ? ["animate", "evolved"] : "animate"}
+      exit="exit"
+      variants={cardVariants}
+      whileHover={hover}
     >
       <motion.div
         className={styles.card}
-        animate={{ rotateY: isFlipped ? 180 : 0 }}
+        animate={flipped ? { rotateY: 180 } : { rotateY: 0 }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
         onAnimationComplete={() => setIsAnimating(false)}
       >
@@ -67,7 +88,7 @@ const PokemonCard = ({ name, img, type, hp, attacks }) => {
         </div>
 
         {/* Lado da frente da carta */}
-        <div 
+        <div
           className={styles.cardFront}
           style={{ background: style.bg }}
         >
@@ -76,9 +97,9 @@ const PokemonCard = ({ name, img, type, hp, attacks }) => {
           </div>
 
           <div className={styles.pokemonImageContainer}>
-            <img 
-              src={img} 
-              alt={name} 
+            <img
+              src={img}
+              alt={name}
               className={styles.pokemonImage}
               draggable="false"
             />
@@ -107,7 +128,7 @@ const PokemonCard = ({ name, img, type, hp, attacks }) => {
           </div>
         </div>
       </motion.div>
-    </div>
+    </motion.div>
   );
 };
 
